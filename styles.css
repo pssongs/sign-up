@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('./iceland.jpeg');
+  background: url('./hotel.jpg');
   background-size: cover;
   width: 40vw;
   height: 100vh;
@@ -21,8 +21,47 @@ body {
   margin: 0;
 }
 
-#leftBox > div {
+button {
+  border-radius: 15px;
   text-align: center;
-  color: rgb(255, 255, 255);
-  margin-bottom: 60vh;
+  background-color: #596D48;
+  padding: 8px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 40px;
+}
+
+#firstLine, #secondLine, #thirdLine {
+  display: flex;
+  gap: 13vw;
+  margin-bottom: 10px;
+}
+
+#rightBox {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+  background-color: #1d2b3a;
+  color: white;
+}
+
+#logo {
+  width: 20vh;
+  height: 20vh;
+  margin-top: 70vh;
+}
+
+#hotelName {
+  margin-top: -10vh;
+  margin-bottom: 10vh;
+  font-size: 40px;
+}
+
+
+#message {
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
 }
